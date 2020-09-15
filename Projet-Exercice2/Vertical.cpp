@@ -4,14 +4,14 @@
 
 #include <iostream> // permet la communiquation entre l'utilisateur et le serveur.
 
-void main() // contient mon programme principale.
+void main() // FR : contient mon programme principale.
 {
 	setlocale(LC_ALL, ""); // permet de bien traduire les accents.
 
 
 
-	//chemin de pensé no1
-	// bien, alors dans cette solution, j'arrive a afficher 5 numéro de 5 chiffres un par dessus l'autre, il y a du progrès mais beaucoup de travail encore.
+	//chemin de pensÃ© no1
+	// bien, alors dans cette solution, j'arrive a afficher 5 numÃ©ro de 5 chiffres un par dessus l'autre, il y a du progrÃ¨s mais beaucoup de travail encore.
 
 	/*
 	
@@ -25,7 +25,7 @@ void main() // contient mon programme principale.
 
 	five number = a + b + c + d + e
 
-	std::cout << "Veuillez entrer un nombre à cinq chiffres : ";
+	std::cout << "Veuillez entrer un nombre Ã  cinq chiffres : ";
 
 	std::cin >> fivenumber;
 
@@ -47,14 +47,14 @@ void main() // contient mon programme principale.
 
 
 
-	//chemin de pensé no2
-	// dans cette solution, j'ai essayé d'élaboré une variable qui se diviserais par 5 au moment de l'affichage en attribuant d'autre variables...le croquis est loin 
-	// d'être achevé...
+	//chemin de pensÃ© no2
+	// dans cette solution, j'ai essayÃ© d'Ã©laborÃ© une variable qui se diviserais par 5 au moment de l'affichage en attribuant d'autre variables...le croquis est loin 
+	// d'Ãªtre achevÃ©...
 
 	/* int fivenumber;
 
 
-std::cout << "Veuillez entrer un nombre à cinq chiffres : ";
+std::cout << "Veuillez entrer un nombre Ã  cinq chiffres : ";
 
 std::cin >> fivenumber;
 
@@ -80,9 +80,9 @@ else
 
 
 
-	//chemin de pensé no3
-	// dans cette solution, j'ai essayé de donné a la variable fivenumber 5 variables (a,b,c,d,e)... l'idée ne semble pas mauvaise sur papier mais au point de vue pratique,
-	// c'est un désastre!
+	//chemin de pensÃ© no3
+	// dans cette solution, j'ai essayÃ© de donnÃ© a la variable fivenumber 5 variables (a,b,c,d,e)... l'idÃ©e ne semble pas mauvaise sur papier mais au point de vue pratique,
+	// c'est un dÃ©sastre!
 
 	/*
 
@@ -99,7 +99,7 @@ else
 	d <= 9;
 	e <= 9;
 
-	std::cout << "Veuillez entrer un nombre à cinq chiffres : ";
+	std::cout << "Veuillez entrer un nombre Ã  cinq chiffres : ";
 
 	std::cin >> a >> b >> c >> d >> e;
 
@@ -123,12 +123,12 @@ else
 
 
 
-// chemin de pensé no4 
-//dans cette solution, j'ai essayé de travaillé vers les modulo, çela semble être une bonne solution, mais a bout de plus de 6h de travail... je perd espoir.
+// chemin de pensÃ© no4 
+//dans cette solution, j'ai essayÃ© de travaillÃ© vers les modulo, Ã§ela semble Ãªtre une bonne solution, mais a bout de plus de 6h de travail... je perd espoir.
 
 /* int number5c;
 
-std::cout << "Veuillez entrer un nombre à cinq chiffres : ";
+std::cout << "Veuillez entrer un nombre Ã  cinq chiffres : ";
 
 std::cin >> number5c;
 
@@ -164,53 +164,57 @@ else
 
 
 */
+	
+	// WOW : Magnifique de laisser la trace de tous tes raisonnements. Je peux ainsi voir le temps et la tÃ©nacitÃ© avec laquelle tu as rÃ©solu le problÃ¨me !!!
 
 
 //solution finale: 5em solution (fonctionnel)
-// modulo était bel et bien la solution! seulement, il fallait y ajouter de la division, c'était si simple que le voile de complexité me bloquais la vue!!!
+// FR : modulo Ã©tait bel et bien la solution! seulement, il fallait y ajouter de la division, FR : c'Ã©tait si simple que le voile de complexitÃ© me bloquais la vue!!!
 
-int number5c; // ici, on prépare le nombre a 5 chiffres a recevoir une information.
+int number5c; // ici, on prÃ©pare le nombre a 5 chiffres a recevoir une information.
 
-std::cout << "Veuillez entrer un nombre à cinq chiffres : "; // affiche a l'écran "veuillez entrer un nombre a 5 chiffres."
+std::cout << "Veuillez entrer un nombre Ã  cinq chiffres : "; // affiche a l'Ã©cran "veuillez entrer un nombre a 5 chiffres."
 
-std::cin >> number5c; // demande a l'utilisateur d'entré le dit nombre.
+std::cin >> number5c; // demande a l'utilisateur d'entrÃ© le dit nombre.
 
-int numero5; // prépare le premier chiffre du nombre a 5 chiffres
-int numero4; // prépare le second chiffre du nombre a 5 chiffres
-int numero3; // prépare le troisième chiffre du nombre a 5 chiffres
-int numero2; // prépare le quatrième chiffre du nombre a 5 chiffres
-int numero1; // prépare le cinquième chiffre du nombre a 5 chiffres
-
-
-/*À qui de droit, de numéro 5 à 1 suivant, il fût plus que difficile de résoudre la solution. Tel que laissé sous forme de commentaires, tout mes croquis montre bien la démarche
-étape par étape de mon raisonnement vers cette solution finale (et surtout fonctionnelle). il me fallut 7h51 minutes environs pour mettre a terme ce projet. bien qu'il s'agit d'une 
-quantité d'heures irrationnel pour cette charge de travail, avoir remplis ma commande me suffit a rembourser la quantité d'efforts donnés. 
-Quoi qu'il en soit, la fierté éprouvé l'orsque je cria "Eureka" est indéniable.  */
+// KM : C'est drÃ´le que le nom de variables ne suit pas la logique du commentaire !!!!
+int numero5; // prÃ©pare le premier chiffre du nombre a 5 chiffres
+int numero4; // prÃ©pare le second chiffre du nombre a 5 chiffres
+int numero3; // prÃ©pare le troisiÃ¨me chiffre du nombre a 5 chiffres
+int numero2; // prÃ©pare le quatriÃ¨me chiffre du nombre a 5 chiffres
+int numero1; // prÃ©pare le cinquiÃ¨me chiffre du nombre a 5 chiffres
 
 
-numero5 = number5c % 10; //ici, on exprime un modulo 10 car le résultat d'un modulo 10 face a un nombre donnera toujours son dernier chiffre
-numero4 = number5c / 10 % 10; //ici on divise par 10 de façon a obtenir un nombre a 4 chiffres (12345 / 10 = 1234,5) et comme on travaille avec des entiers, les décimales sont oublié
-// suite de quoi le modulo 10 donne la valeur du derni chiffre attribué au nouveau nombre a 4 chiffres.
-numero3 = number5c / 100 % 10; // même principe pour cette équation mais divisé par 100 car (12345 / 100 = 123,45 % 10 = 3)
-numero2 = number5c / 1000 % 10; // même principe pour cette équation mais divisé par 1000 car (12345 / 1000 = 12,345 % 10 = 2)
-numero1 = number5c / 10000 % 10; // même principe pour cette équation mais divisé par 10000 car (12345 / 10000 = 1,2345 % 10 = 1)
+/*Ã€ qui de droit, de numÃ©ro 5 Ã  1 suivant, il fÃ»t plus que difficile de rÃ©soudre la solution. Tel que laissÃ© sous forme de commentaires, FR :  tout mes croquis montre bien la dÃ©marche
+Ã©tape par Ã©tape de mon raisonnement vers cette solution finale (et surtout fonctionnelle). il me fallut 7h51 minutes FR : environs pour mettre a terme ce projet. bien qu'il s'agit d'une 
+quantitÃ© d'heures FR : irrationnel pour cette charge de travail, FR : avoir remplis ma commande me suffit a rembourser la quantitÃ© d'efforts donnÃ©s. 
+Quoi qu'il en soit, FR : la fiertÃ© Ã©prouvÃ© l'orsque je cria "Eureka" est indÃ©niable.  */
 
+// KM : WOW, tu apportes le cÃ´tÃ© humain Ã  ce programme en libÃ©rant ici toutes les Ã©motions d'un programmeur tenace et fier d'avoir obtenu enfin le rÃ©sultat tant cherchÃ© !!!
 
+numero5 = number5c % 10; //ici, on exprime un modulo 10 car le rÃ©sultat d'un modulo 10 face a un nombre donnera toujours son dernier chiffre
+numero4 = number5c / 10 % 10; //ici on divise par 10 de faÃ§on a obtenir un nombre a 4 chiffres (12345 / 10 = 1234,5) et comme on travaille avec des entiers, les dÃ©cimales sont oubliÃ©
+// suite de quoi le modulo 10 donne la valeur du derni chiffre attribuÃ© au nouveau nombre a 4 chiffres.
+numero3 = number5c / 100 % 10; // mÃªme principe pour cette Ã©quation mais divisÃ© par 100 car (12345 / 100 = 123,45 % 10 = 3)
+numero2 = number5c / 1000 % 10; // mÃªme principe pour cette Ã©quation mais divisÃ© par 1000 car (12345 / 1000 = 12,345 % 10 = 2)
+numero1 = number5c / 10000 % 10; // mÃªme principe pour cette Ã©quation mais divisÃ© par 10000 car (12345 / 10000 = 1,2345 % 10 = 1)
 
+// KM : En plus du rÃ©sultat obtenu, tes explications sont trÃ¨s claires et bien illustrÃ©es avec des exemples !!!
 
+// KM : Ce test n'est pas suffisant pour dire que le nombre Ã  exactement 5 chiffres
 if (number5c >= 10000) //dit a mon programme: si le nombre a 5 chiffres, le placer en ordre sur 5 lignes.
 {
 
-	std::cout << numero1 << std::endl; // affiche le premier chiffre entré dans le nombre a 5 chiffres. (endl; ici saute une ligne.)
-	std::cout << numero2 << std::endl; // affiche le second chiffre entré dans le nombre a 5 chiffres.
-	std::cout << numero3 << std::endl; // affiche le troisième chiffre entré dans le nombre a 5 chiffres.
-	std::cout << numero4 << std::endl; // affiche le quatrième chiffre entré dans le nombre a 5 chiffres.
-	std::cout << numero5 << std::endl; // affiche le cinquième chiffre entré dans le nombre a 5 chiffres.
+	std::cout << numero1 << std::endl; // affiche le premier chiffre entrÃ© dans le nombre a 5 chiffres. (endl; ici saute une ligne.)
+	std::cout << numero2 << std::endl; // affiche le second chiffre entrÃ© dans le nombre a 5 chiffres.
+	std::cout << numero3 << std::endl; // affiche le troisiÃ¨me chiffre entrÃ© dans le nombre a 5 chiffres.
+	std::cout << numero4 << std::endl; // affiche le quatriÃ¨me chiffre entrÃ© dans le nombre a 5 chiffres.
+	std::cout << numero5 << std::endl; // affiche le cinquiÃ¨me chiffre entrÃ© dans le nombre a 5 chiffres.
 }
-else //  si le nombre fournis n'a pas 5 chiffres, le programme ignore le if et affiche else a la place qui indique "ce nombre ne contient pas 5 chiffres."
+else //  FR : si le nombre fournis n'a pas 5 chiffres, le programme ignore le if et affiche else a la place qui indique "ce nombre ne contient pas 5 chiffres."
 {
 
-	std::cout << "ce nombre ne contient pas 5 chiffres"; //affiche a l'écran "ce nombre ne contient pas 5 chiffres"
+	std::cout << "ce nombre ne contient pas 5 chiffres"; //affiche a l'Ã©cran "ce nombre ne contient pas 5 chiffres"
 }
 
 
@@ -218,7 +222,7 @@ else //  si le nombre fournis n'a pas 5 chiffres, le programme ignore le if et a
 
 // Plan de tests
 /*
-nombre 5 chiffres: *****					Résultat attendu:
+nombre 5 chiffres: *****					RÃ©sultat attendu:
 											(ordre)
 											1
 											2
@@ -233,5 +237,5 @@ nombre <5 chiffres: ****					Ce nombre ne contient pas 5 chiffres.
 
 
 
-//problèmes avec return 0; ?? il ne semble pas fonctionner lorsque intègrer...
+//problÃ¨mes avec return 0; ?? il ne semble pas fonctionner lorsque intÃ¨grer...
 } // fermeture du bloc d'instruction principale.
